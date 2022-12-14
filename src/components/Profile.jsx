@@ -4,7 +4,7 @@ import Header from "./Header";
 export default function Profile() {
 	return (
 		<>
-			{/* <Header /> */}
+			<Header />
 			<h1>프로필 페이지 입니다.</h1>
 		</>
 	);

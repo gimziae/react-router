@@ -7,10 +7,8 @@ import Profile from "./components/Profile";
 function App() {
 	return (
 		<div className="App">
-			<Header />
-			{/* 라우츠와 라우터는 한 묶음!! 같이 사용해야 한다. */}
 			<Routes>
-				{/* path 주소설정 element 보여줄 컨텐츠 */}
+				<Route path="/" element={<Header />} />
 				<Route path="/profile" element={<Profile />} />
 				<Route path="/board" element={<Board />} />
 			</Routes>
